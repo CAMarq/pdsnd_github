@@ -46,13 +46,7 @@ head(chicago_8col)
 Month <- all_cities %>%
   mutate(Clean.Start.Date = as.Date(Start_Time),
          Clean.End.Time = as.Date(End_Time)) %>%
-  mutate(Month = month(Clean.Start.Date)) %>%
-  mutate(Month = case_when(Month == "1" ~ "January",
-                         Month == "2" ~ "February",
-                         Month == "3" ~ "March",
-                         Month == "4" ~ "April",
-                         Month == "5" ~ "May",
-                         Month == "6" ~ "June"))
+  mutate(Month = month(Clean.Start.Date, label = TRUE, abbr = FALSE))
 
 
 #To change column Month to be a factor
