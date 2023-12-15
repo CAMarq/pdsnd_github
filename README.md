@@ -13,7 +13,7 @@ A HTML file is available, this file contains a new-programmer friendly interface
 December 14th, 2023.
 
 ## Technologies
-The integrated development enviroment for R, [RStudio] (https://posit.co/download/rstudio-desktop/) was used.
+The integrated development enviroment for R, [RStudio] (https://posit.co/download/rstudio-desktop) was used.
 
 ## Acknowledgments
 BIG, **BIG** thanks to [Udacity](https://www.udacity.com/) team for their support, amazing feedback and incredibly enlightning course. Also *thank you reader* for checking out my bit of code, I hope you find it helpful!
