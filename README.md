@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bikeshare R Code 
 
-### Date created
-Include the date you created this project and README file.
+## Description
+This short code is a step-by-step guide to answering three basic questions on bikeshare system for three cities: Washington, New York and Chicago. This analysis is part of Udacity nanodegree: *Programming for Data Science with R*
 
-### Project Title
-Replace the Project Title
+## Files
+An R executable file is enclosed with the purpose of allowing the user to open and explore within their own RStudio or IDE.
+A HTML file is available, this file contains a new-programmer friendly interface and comments indicating each step that is performed, a visual to demonstrate the results and finally, a comprehensive summary to provide detailed explanation on the logic used, as well as the conclusions.
 
-### Description
-Describe what your project is about and what it does
+*It is important to note that city data was provided by Udacity Team*
 
-### Files used
-Include the files used
+## Date Created
+December 14th, 2023.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Technologies
+The integrated development enviroment for R, [RStudio] (https://posit.co/download/rstudio-desktop) was used.
 
+## Acknowledgments
+BIG, **BIG** thanks to [Udacity](https://www.udacity.com/) team for their support, amazing feedback and incredibly enlightning course. Also *thank you reader* for checking out my bit of code, I hope you find it helpful!
