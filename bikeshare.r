@@ -28,13 +28,14 @@ all_cities <- rbind(new_york_city_8col,
                     chicago_8col,
                     washington_8col)
 
-names(all_cities)[1]="ID"
-names(all_cities)[2]="Start_Time"
-names(all_cities)[3]="End_Time"
-names(all_cities)[4]="Trip_Duration"
-names(all_cities)[5]="Start_Station"
-names(all_cities)[6]="End_Station"
-names(all_cities)[7]="User_Type"
+all_cities <- all_cities %>%
+  rename(ID = 1,
+         Start_Time = 2,
+         End_Time = 3,
+         Trip_Duration = 4,
+         Start_Station = 5,
+         End_Station = 6,
+         User_Type = 7)
 
 
 head(new_york_city_8col)
